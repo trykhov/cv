@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Try's Contact Info</title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <p>Phone</p>
+    <p>Email</p>
+    <!-- enctype="text/plain" so message isn't incrypted -->
+    <!--action sends it to email -->
+    <form action="mailto:joe@example.com?subject=feedback" method="post" enctype="text/plain">
+      <label>Your Name:</label><input type="text" name="" value="">
+      <br>
+      <label>Email:</label><input type="email" name="yourEmail" value="">
+      <br>
+      <label>Your Message</label>
+      <br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      <br>
+      <input type="submit" name="">
+    </form>
+
+  </body>
+</html>
